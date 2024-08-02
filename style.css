@@ -1,0 +1,76 @@
+/* style.css file*/
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    background: rgba(47, 46, 47, 0.66);
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 55px;
+    font-weight: bold;
+}
+
+.container h1 {
+    color: #040004;
+}
+
+.section {
+    background-color: #b1a1b3;
+    padding: 50px 30px;
+       /* font-weight: bold; */
+    border: 1.5px solid #040000;
+    border-radius: 2em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+
+#my-qr-reader {
+    padding: 20px !important;
+    border: 1.5px solid #030000 !important;
+    border-radius: 2em;
+}
+
+#my-qr-reader img[alt="Info icon"] {
+    display: none;
+}
+
+#my-qr-reader img[alt="Camera based scan"] {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    border-radius: 1.75em;
+    color: rgb(224, 172, 250);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #485a68ad;
+    transition: 0.3s background-color;
+}
+
+button:hover {
+    background-color: #323d5c;
+}
+
+#html5-qrcode-anchor-scan-type-change {
+    text-decoration: none !important;
+    color: #010e17;
+}
+
+video {
+    width: 100% !important;
+    border: 1px solid #b2b2b2 !important;
+    border-radius: 0.25em;
+}
